@@ -127,7 +127,9 @@ display: none;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
-        text-transform: capitalize;
+        text-transform: uppercase;
+        font-size: 25px;
+        font-weight: bold;
     }
 
     .card-title {
