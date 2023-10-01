@@ -125,7 +125,7 @@ display: none;
     .card-header {
         position: relative !important;
         display: flex !important;
-        justify-content: left !important;
+        justify-content: center !important;
         align-items: center !important;
         text-transform: capitalize;
     }
@@ -172,7 +172,7 @@ display: none;
 
     /* for Safari, Chrome, Opera */
     -webkit-appearance: none;
-    
+
     }
 
     /* for IE10 */
