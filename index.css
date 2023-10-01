@@ -16,6 +16,20 @@ body {
     background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+#iconLogin, #iconCargaHoraria {
+    position: relative !important;
+    top: -2px !important;
+    height: 22px !important;
+    left: 2px !important;
+}
+
+#iconHE, #iconDeslogue {
+    position: relative !important;
+    top: -2px !important;
+    height: 26px !important;
+    left: 2px !important;
+}
+
 .card {
     border-radius: 10px;
 }
@@ -33,13 +47,6 @@ body {
     justify-content: center !important;
     align-items: center !important;
     text-transform: uppercase;
-}
-
-#logo {
-    position: absolute;
-    width: 150px;
-    right: 10px;
-    padding-top: 10px;
 }
 
 input, select {
@@ -87,8 +94,29 @@ input, select {
         text-transform: capitalize;
     }
 
+    .card-title {
+        font-size: 22px;
+    }
+
     input, select {
         position: relative;
         width: 150px;
+        height: 40px !important;
+        font-size: 20px;
     }
+
+    #iconLogin, #iconCargaHoraria {
+        position: relative !important;
+        top: -2px !important;
+        height: 22px !important;
+        left: 2px;
+    }
+    
+    #iconHE, #iconDeslogue {
+        position: relative;
+        top: -3px !important;
+        height: 30px !important;
+        left: 2px;
+    }
+
 }

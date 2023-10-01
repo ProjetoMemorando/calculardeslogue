@@ -6,46 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
-    <title>Calcular o Deslogue</title>
+    <title>Calcular Deslogue</title>
 </head>
 <body>
 <main id="main">
     <div class="container">
         <div class="card">
-        <h5 class="card-header">Calcule seu horário de deslogue</h5>
+        <h2 class="card-header">Calcule seu horário de deslogue</h2>
         
         <div class="card-body">
             <h5 class="card-title">Qual o horário de logue no seu ponto?</h5>
-            <p class="card-text"><input type="time" id="logue"></p>
+            <p class="card-text">
+                <input type="time" id="logue" value="00:00">
+                <img class="icons" id="iconLogin" src="log-in.png" alt="Login">
+            </p>
             <hr>
             <h5 class="card-title">Qual a sua carga horária em ponto? </h5>
             <span id="exemplo">(Exemplo: 05:40 de TL + 00:40 de Pausas = <b><u>06:20</u></b> de carga horária)</span>
             <p class="card-text">
-            <select id="cargaHoraria">
+            <select id="cargaHoraria"> 
                 <option value="Selecione" selected>Selecione</option>
-                <option value="05:35:00">05:35:00</option>
-                <option value="05:45:00">05:45:00</option>
-                <option value="05:50:00">05:50:00</option>
-                <option value="05:55:00">05:55:00</option>
-                <option value="06:00:00">06:00:00</option>
-                <option value="06:05:00">06:05:00</option>
-                <option value="06:10:00">06:10:00</option>
-                <option value="06:15:00">06:15:00</option>
-                <option value="06:20:00">06:20:00</option>
-                <option value="07:40:00">07:40:00</option>
-                <option value="07:50:00">07:50:00</option>
-                <option value="07:55:00">07:55:00</option>
-                <option value="08:00:00">08:00:00</option>
-                <option value="08:05:00">08:05:00</option>
-                <option value="08:10:00">08:10:00</option>
-                <option value="08:12:00">08:12:00</option>
-                <option value="09:48:00">09:48:00</option>
+                <option value="05:35">05:35</option>
+                <option value="05:45">05:45</option>
+                <option value="05:50">05:50</option>
+                <option value="05:55">05:55</option>
+                <option value="06:00">06:00</option>
+                <option value="06:05">06:05</option>
+                <option value="06:10">06:10</option>
+                <option value="06:15">06:15</option>
+                <option value="06:20">06:20</option>
+                <option value="07:40">07:40</option>
+                <option value="07:50">07:50</option>
+                <option value="07:55">07:55</option>
+                <option value="08:00">08:00</option>
+                <option value="08:05">08:05</option>
+                <option value="08:10">08:10</option>
+                <option value="08:12">08:12</option>
+                <option value="09:48">09:48</option>
             </select>
-
+            <img class="icons" id="iconCargaHoraria" src="clock.png" alt="Login">
             </p>
             <hr>
+            <h5 class="card-title">Quanto tempo foi realizado de Hora Extra?</h5>
+            <p class="card-text">
+                <input type="time" id="he" value="00:00">
+                <img class="icons" id="iconHE" src="time.png" alt="Login">
+            </p>
             <h5 class="card-title">Abaixo está seu horário de deslogue</h5>
-            <p class="card-text"><input type="text" id="deslogue" disabled></p>
+            <p class="card-text">
+                <input type="text" id="deslogue" disabled>
+                <img class="icons" id="iconDeslogue" src="run.png" alt="Login">
+            </p>
             <hr>
             <a href="#" class="btn btn-primary" id="btnCalcular">Calcular</a>
         </div>
