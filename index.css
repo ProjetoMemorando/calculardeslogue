@@ -159,4 +159,27 @@ display: none;
         box-shadow: 3px 3px 15px #000;
     }
 
+    /* Begin: Desativa a setinha do Select */
+
+    select::-ms-expand {
+        display: none;
+    }
+
+    select {
+
+    /* for Firefox */
+    -moz-appearance: none;
+
+    /* for Safari, Chrome, Opera */
+    -webkit-appearance: none;
+    
+    }
+
+    /* for IE10 */
+    select::-ms-expand {
+    display: none;
+    }
+
+    /* End: Desativa a setinha do Select */
+
 }
