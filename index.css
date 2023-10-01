@@ -2,6 +2,10 @@ body {
     height: 100vh !important;
 }
 
+.card {
+    box-shadow: 3px 3px 15px #000;
+}
+
 #main {
     position: relative !important;
     width: 100%;
@@ -67,11 +71,9 @@ footer {
 
 #deslogue {
     background-color: #f4f4f4;
-}
-
-#deslogue {
     font-weight: bold !important;
 }
+
 
 @media only screen and (min-width: 300px) and (max-width: 430px) {
     body {
@@ -126,6 +128,8 @@ footer {
         left: 2px;
     }
 
-
+    .card {
+        box-shadow: 3px 3px 15px #000;
+    }
 
 }
