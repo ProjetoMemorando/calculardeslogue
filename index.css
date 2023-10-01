@@ -58,6 +58,13 @@ input, select {
     padding-left: 10px !important;
 }
 
+footer {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-style: italic;
+}
+
 #deslogue {
     background-color: #f4f4f4;
 }
@@ -118,5 +125,7 @@ input, select {
         height: 30px !important;
         left: 2px;
     }
+
+
 
 }
