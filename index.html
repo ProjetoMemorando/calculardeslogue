@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Calcular Deslogue</title>
+</head>
+<body>
+<main id="main">
+    <div class="container">
+        <div class="card">
+        <h5 class="card-header">Calcule seu horário de deslogue</h5>
+        
+        <div class="card-body">
+            <h5 class="card-title">Qual o horário de logue no seu ponto?</h5>
+            <p class="card-text"><input type="time" id="logue"></p>
+            <hr>
+            <h5 class="card-title">Qual a sua carga horária em ponto? </h5>
+            <span id="exemplo">(Exemplo: 05:40 de TL + 00:40 de Pausas= <b><u>06:20</u></b> de carga horária)</span>
+            <p class="card-text">
+            <select id="cargaHoraria">
+                <option value="Selecione" selected>Selecione</option>
+                <option value="05:35:00">05:35:00</option>
+                <option value="05:45:00">05:45:00</option>
+                <option value="05:50:00">05:50:00</option>
+                <option value="05:55:00">05:55:00</option>
+                <option value="06:00:00">06:00:00</option>
+                <option value="06:05:00">06:05:00</option>
+                <option value="06:10:00">06:10:00</option>
+                <option value="06:15:00">06:15:00</option>
+                <option value="06:20:00">06:20:00</option>
+                <option value="07:40:00">07:40:00</option>
+                <option value="07:50:00">07:50:00</option>
+                <option value="07:55:00">07:55:00</option>
+                <option value="08:00:00">08:00:00</option>
+                <option value="08:05:00">08:05:00</option>
+                <option value="08:10:00">08:10:00</option>
+                <option value="08:12:00">08:12:00</option>
+                <option value="09:48:00">09:48:00</option>
+            </select>
+
+            </p>
+            <hr>
+            <h5 class="card-title">Abaixo está seu horário de deslogue</h5>
+            <p class="card-text"><input type="text" id="deslogue" disabled></p>
+            <hr>
+            <a href="#" class="btn btn-primary" id="btnCalcular">Calcular</a>
+        </div>
+    </div>
+    <div id="resultado"></div>
+    </div>
+</main>
+
+<script src="index.js"></script>
+</body>
+</html>

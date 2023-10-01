@@ -1,0 +1,94 @@
+body {
+    height: 100vh !important;
+}
+
+#main {
+    position: relative !important;
+    width: 100%;
+    min-width: 100px;
+    height: 100vh;
+    margin:0px !important;
+    padding: 0px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.card {
+    border-radius: 10px;
+}
+
+#exemplo {
+    position: relative;
+    top: -10px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.card-header {
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-transform: uppercase;
+}
+
+#logo {
+    position: absolute;
+    width: 150px;
+    right: 10px;
+    padding-top: 10px;
+}
+
+input, select {
+    background-color: #FFFF;
+    position: relative;
+    width: 150px;
+    border: 3px #c6c6c6 double;
+    border-radius: 5px;
+    padding-left: 10px !important;
+}
+
+#deslogue {
+    background-color: #f4f4f4;
+}
+
+#deslogue {
+    font-weight: bold !important;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 430px) {
+    body {
+        height: 100vh !important;
+    }
+
+    #main {
+        position: relative !important;
+        width: 100%;
+        min-width: 550px;
+        height: 100% !important;
+        min-height: 1200px;
+        margin:0px !important;
+        padding: 0px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        background: rgb(2,0,36);
+        background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    .card-header {
+        position: relative !important;
+        display: flex !important;
+        justify-content: left !important;
+        align-items: center !important;
+        text-transform: capitalize;
+    }
+
+    input, select {
+        position: relative;
+        width: 150px;
+    }
+}
